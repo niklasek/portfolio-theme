@@ -1,0 +1,20 @@
+ul {
+	padding: 0px;
+	list-style-type: none;
+	line-height: 1.95em;
+}
+
+ul li {
+	border-bottom: 1px solid rgb(220,220,220);
+}
+
+ul li a {
+	color: rgb(30,30,30);
+	text-decoration: none;
+}
+
+section div.column-8 img {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	width: 100%;
+}

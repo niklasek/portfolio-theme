@@ -1,0 +1,39 @@
+/* target / context = result */
+
+header, section, footer {
+	width: 100%;
+}
+
+div.grid {
+	width: 80%; /* (960 / 1200) * 100 = 80 */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.column-4 {
+	width: 31.25%; /* (300 / 960) * 100 = 31.25 */
+	margin-left: 1.04166666667%; /* (10 / 960) * 100 = 1.04166666667 */
+	margin-right: 1.04166666667%;
+	float: left;
+}
+
+.column-6 {
+	width: 47.9166666667%; /* (460 / 960) * 100 = 47.9166666667 */
+	margin-left: 1.04166666667%; /* (10 / 960) * 100 = 1.04166666667 */
+	margin-right: 1.04166666667%;
+	float: left;
+}
+
+.column-8 {
+	width: 64.5833333333%; /* (620 / 960) * 100 = 64.5833333333 */
+	margin-left: 1.04166666667%; /* (10 / 960) * 100 = 1.04166666667 */
+	margin-right: 1.04166666667%;
+	float: left;
+}
+
+.column-12 {
+	width: 97.9166666667%; /* (940 / 960) * 100 = 97.9166666667 */
+	margin-left: 1.04166666667%; /* (10 / 960) * 100 = 1.04166666667 */
+	margin-right: 1.04166666667%;
+	float: left;
+}
